@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0-*",
+  "description": "Slow Console Application",
+  "authors": [ "" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "tooling": {
+    "defaultNamespace": "Slow"
+  },
+
+  "dependencies": {
+	  "System.Threading.Thread": "4.0.0-beta-23516",
+      "System.Threading.ThreadPool": "4.0.10-beta-23516"
+  },
+
+  "commands": {
+    "Slow": "Slow"
+  },
+
+  "frameworks": {
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Diagnostics.Process": "4.0.11-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Collections.Concurrent": "4.0.11-beta-23516",
+        "System.Console": "4.0.0-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Threading": "4.0.11-beta-23516"
+      }
+    }
+  }
+}
